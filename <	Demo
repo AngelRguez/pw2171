@@ -1,2 +1,9 @@
 <	Demo
 Este es un cambio en el archivo
+
+git branch mirada—Para crear una rama
+git branch—Para ver que ramas existe
+git checkout para viajar en el tiempo
+git checkout mas nombre de mi rama para posicionarla en una rama
+
+git push -u origin mirada para subir mi rama a la plataforma
