@@ -1,0 +1,58 @@
+body{
+	atributo:valor;
+	background: white;
+	border-radius: 5px;--redondear las esquinas de la caja
+	border:1px solid red;
+	color: black;
+	font-size: 16px;
+	margin: 0px auto;
+	max-width: 1024px;
+}
+
+footer{
+	background: blue;
+	color:  white;
+	font-size: 0.7em; /*TAMAÑO BASE DE LA LETRA DE TODOS LOS NAVEGADORES*/
+	margin: 0px auto;
+	text-align: center;
+	width: 100%; /*ANCHO MÁXIMO DE LA PÁGINA*/
+}
+
+header{
+	border: 1px solid blue;
+	text-align: center;
+}
+header img{
+	float: right;
+	margin: -70px 20px 0px 0px;
+	width: 100px;
+}
+
+header nav ul li{
+	/*border: 1px solid red;*/
+	background: grey;
+	border-radius: 5px;
+	box-shadow: 5px 5px 15px black;
+	color: black;
+	display: inline-block;
+	margin: 0px 10px 0px 10px;
+	padding: 5px 10px;
+	width: 84px;
+
+}
+
+header nav ul li:hover{
+	background: orange;
+	color: blue;
+}
+
+main article{
+	width: : 48%; /* PASO 1 ESTABLECER EL ANCHO DE LA CAJA*/
+	border: 1px solid red;
+	display: inline-block; /* PASO 2: ALINEAR UNA A UN LADO DE LA OTRA*/
+	vertical-align: : top; /*ALINEACION DE LA CAJA CON RESPECTO*/
+
+}
+
+
+/*box-shadow sombra de la caja, si pongo valors negativos se ire hacia arriba y a la izquierda*/
